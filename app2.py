@@ -1,11 +1,7 @@
 import os
 import tempfile
 import streamlit as st
-from voice import (
-    get_voice_input,
-    speak_answer
-)
-
+from voice import speak_answer
 from dotenv import load_dotenv
 from gtts import gTTS
 
