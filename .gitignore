@@ -1,0 +1,41 @@
+# Virtual Environment
+
+myenv/
+
+# Python Cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+
+.env
+
+# Voice Module (ignore if not pushing)
+
+voice.py
+
+# Streamlit Cache
+
+.streamlit/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Audio Files
+
+*.mp3
+*.wav
+
+# Temporary Files
+
+temp/
+tmp/
