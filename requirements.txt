@@ -25,3 +25,5 @@ scikit-learn
 gtts
 streamlit-mic-recorder
 SpeechRecognition
+
+keybert==0.9.0
