@@ -1,52 +1,27 @@
-streamlit==1.59.1
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-google-genai
 
-# LangChain
-langchain==1.3.12
-langchain-community==0.4.2
-langchain-huggingface==1.2.2
-langchain-text-splitters==1.1.2
-langchain-google-genai==4.2.7
+faiss-cpu
+sentence-transformers
+transformers
+huggingface-hub
+accelerate
 
-# Vector Database
-faiss-cpu==1.14.3
+torch
+torchvision
+torchaudio
 
-# HuggingFace / Embeddings
-sentence-transformers==5.6.0
-transformers==5.13.0
-huggingface-hub==1.22.0
-accelerate==1.14.0
+pypdf
+python-dotenv
 
-# PyTorch (Python 3.13 compatible)
-torch==2.13.0
-torchvision==0.28.0
-torchaudio==2.11.0
+numpy
+pandas
+scikit-learn
 
-# PDF
-pypdf==6.14.2
-
-# Data Science
-numpy==2.5.1
-pandas==3.0.3
-scikit-learn==1.9.0
-scipy==1.18.0
-
-# Gemini
-google-generativeai==0.8.6
-google-genai==2.10.0
-
-# Environment
-python-dotenv==1.2.2
-
-# Voice Input
-streamlit-mic-recorder==0.0.8
-SpeechRecognition==3.17.0
-
-# Voice Output
-gtts==2.5.4
-pydub==0.25.1
-
-# Utilities
-pillow==12.3.0
-requests==2.34.2
-pyyaml==6.0.3
-tqdm==4.68.4
+gtts
+streamlit-mic-recorder
+SpeechRecognition
